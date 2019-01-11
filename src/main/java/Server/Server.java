@@ -65,7 +65,6 @@ public class Server {
 
                 //When program is stopped, kill all the clients
                 clients.forEach(client -> client.kill());
-                System.out.println("should have killed");
 
                System.exit(0);
             });

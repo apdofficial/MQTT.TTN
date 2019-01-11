@@ -39,6 +39,8 @@ public class CommandProcessor {
 
     //method process the request and returns the result:
     public String processRequest(String request) {
+
+        System.out.println("Client requested: "+request);
         //chain of responsibility
         for (Command command : commands){
             try {

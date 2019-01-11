@@ -17,9 +17,9 @@ import java.util.ArrayList;
 public class DeviceNames implements Command {
 
     //method process the command and return result
-    public ArrayList<String> process(String request) throws Exception {
+    public ArrayList<String> process(String request) {
         ArrayList<String> result = new ArrayList<>();
-        System.out.println("Client requested: "+request);
+
         if (!request.trim().equalsIgnoreCase(this.getDescription())){
             return result;
         }

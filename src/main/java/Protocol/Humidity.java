@@ -17,13 +17,13 @@ import java.util.ArrayList;
 public class Humidity implements Command {
 
     //method process the command and return result
-    public ArrayList<String> process(String request) throws Exception {
+    public ArrayList<String> process(String request) {
         ArrayList<String> result = new ArrayList<>();
         if (!request.trim().equalsIgnoreCase(this.getDescription())){
             return result;
         }
 
-        System.out.println("Client requested: "+request);
+
         try {
             DBmanager dbManager = new DBmanager();
             dbManager.makeConnection();
