@@ -59,9 +59,8 @@ public class Server {
                 Scanner input = new Scanner(System.in);
                 while(true){
                     String str = input.nextLine();
-                    if (str.equalsIgnoreCase("q"))
-                        break;
-                }
+                    if (str.equalsIgnoreCase("q")) break;
+                    }
 
                 //When program is stopped, kill all the clients
                 clients.forEach(client -> client.kill());

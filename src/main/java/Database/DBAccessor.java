@@ -106,7 +106,6 @@ public class DBAccessor {
             for (String device : devices) {
                 if (device.equalsIgnoreCase(hardware_serial)) {
                     exits = true;
-                    System.out.println("Did find device!");
                 }
             }
             if (!exits) {
