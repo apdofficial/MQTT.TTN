@@ -87,6 +87,8 @@ public class DBAccessor {
             preparedStatement.setDouble(6, pressure);
             preparedStatement.executeUpdate();
 
+        } catch (java.sql.SQLIntegrityConstraintViolationException s){
+            System.out.println(s.getMessage());
         } catch (SQLException | JSONException se) {
             se.printStackTrace();
         }

@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3419df2c-f23c-4e99-93d1-5cd99bbb866b" name="Default Changelist" comment="Fixed backlog of server">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+    <list default="true" id="3419df2c-f23c-4e99-93d1-5cd99bbb866b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Protocol/CommandProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Protocol/CommandProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Protocol/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Protocol/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Protocol/DeviceNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Protocol/DeviceNames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Protocol/Humidity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Protocol/Humidity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Protocol/Luminosity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Protocol/Luminosity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Protocol/Pressure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Protocol/Pressure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Protocol/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Protocol/Temperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Database/DBAccessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Database/DBAccessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -30,11 +21,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="165">
               <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Protocol/DeviceNames.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.13/3ba97a59f0badd1ccd7463fac4941e47137f9afb/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Database/DBAccessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Protocol/Temperature.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -55,10 +82,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Protocol/Luminosity.java" />
         <option value="$PROJECT_DIR$/src/main/java/Protocol/Temperature.java" />
         <option value="$PROJECT_DIR$/src/main/java/Server/Server.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Database/DBAccessor.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="960" />
     <option name="height" value="991" />
@@ -120,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547201277079" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547203984381" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -173,12 +201,20 @@
       <updated>1547198185324</updated>
       <workItem from="1547198186504" duration="32000" />
       <workItem from="1547198259038" duration="26000" />
-      <workItem from="1547200643477" duration="633000" />
+      <workItem from="1547200643477" duration="3071000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed backlog of server">
+      <created>1547201283559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547201283559</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="691000" />
+    <option name="totallyTimeSpent" value="3129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="960" height="991" extended-state="0" />
@@ -193,7 +229,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -239,13 +275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Protocol/DeviceNames.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Protocol/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -274,17 +303,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.json/json/20090211/c183aa3a2a6250293808bba12262c8920ce5a51c/json-20090211.jar!/org/json/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Protocol/Temperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        <state relative-caret-position="234">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="165">
           <caret line="52" column="48" lean-forward="true" selection-start-line="52" selection-start-column="48" selection-end-line="53" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Protocol/DeviceNames.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/mysql/mysql-connector-java/8.0.13/3ba97a59f0badd1ccd7463fac4941e47137f9afb/mysql-connector-java-8.0.13-sources.jar!/com/mysql/cj/jdbc/exceptions/SQLError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Database/DBAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
         </state>
       </provider>
     </entry>
