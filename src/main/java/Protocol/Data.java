@@ -30,11 +30,11 @@ public class Data implements Command {
             DBAccessor DBAccessor = new DBAccessor(dbManager);
             result = DBAccessor.getDeviceData();
             if(result.isEmpty()) {
-                throw new Exception("Empty result");
+                throw new Exception();
             }
         }
         catch(Exception E){
-            E.printStackTrace();
+            System.out.println("Empty result for: Data");
         }
         return result;
     }

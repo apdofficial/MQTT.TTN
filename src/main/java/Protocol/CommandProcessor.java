@@ -48,7 +48,7 @@ public class CommandProcessor {
                 if (!result.isEmpty())
                     return result.toString();
             } catch (Exception e) {
-                e.printStackTrace();
+                System.out.println("Result of client request: Empty");
             }
         }
 

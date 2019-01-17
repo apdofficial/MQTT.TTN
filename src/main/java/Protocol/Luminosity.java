@@ -30,11 +30,11 @@ public class Luminosity implements Command {
             DBAccessor DBAccessor = new DBAccessor(dbManager);
             result = DBAccessor.getLuminosity();
             if(result.isEmpty()) {
-                throw new Exception("Empty result");
+                throw new Exception();
             }
         }
         catch(Exception E){
-            E.printStackTrace();
+            System.out.println("Empty result for: Luminosity");
         }
         return result;
     }
